@@ -1,0 +1,13 @@
+7 - Navegar entre versões do código: 
+
+7.1 - Caso queira ver o histórico de commits(alterações) do seu repositório, rode o comando abaixo. Quando aparecer o log de históricos, eles são organizados de cima para baixo na ordem decrescente, ou seja, o último commit feito estará como HEAD:
+	==> git log --oneline
+
+7.2 - Se você precisa desfazer as alterações do commit que você fez, basta listar o histórico com o comando no passo acima, em seguida copie o código do histórico que você deseja restaurar e voltar para aquele ponto do projeto e digitar o comando abaixo juntamente desse código do histórico:
+	==> git reset --hard [código do histórico]
+	Um exemplo seria:
+	==> git reset --hard 0a67678
+	Para voltar para uma versão mais atual, basta usar o mesmo comando então o código voltará do passado para o presente.
+
+7.3 - Quando você volta para um commit anterior(um ponto do passado) no seu computador, os arquivos do projeto voltaram ao que eram como nesse ponto da história, porém no GitHub ainda ficará as últimas alterações feitas no projeto, para que esse retorno ao passado também fique igual no seu projeto remoto no GitHub você precisa usar o comando abaixo para forçar a mudança no histórico apagando o tudo entre o último commit e o commit que você voltou:
+	==> git push --force

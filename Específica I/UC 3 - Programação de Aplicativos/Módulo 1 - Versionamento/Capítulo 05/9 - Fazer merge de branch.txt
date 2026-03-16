@@ -1,0 +1,13 @@
+9 - Fazer merge de branch:
+
+9.1 - Primeiramente você precisa estar com a branch principal selecionada, para isso rode o comando abaixo. Isso fará com que os arquivos locais alterem para os arquivos que estão na branch main:
+	==> git checkout main
+
+9.2 - Agora para verificar se está selecionado a branch "main", rode o comando:
+	==> git branch
+
+9.3 - Agora que você está com a branch "main" selecionada, você vai rodar o comando que irá unir o código da branch que você informar para a branch atualmente selecionada, no caso a main:
+	==> git merge [nome_da_branch]
+
+9.4 - Após rodar o comando anterior você pode verificar que os arquivos locais estão com as alterações da nova branch, agora só falta enviar para o repositório remoto do Github essa união das alterações da sua nova branch na branch da main:
+	==> git push

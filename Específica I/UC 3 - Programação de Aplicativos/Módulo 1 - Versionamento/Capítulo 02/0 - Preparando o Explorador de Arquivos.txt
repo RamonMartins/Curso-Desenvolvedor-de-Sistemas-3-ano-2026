@@ -1,0 +1,11 @@
+0 - Preparando o Explorador de Arquivos
+
+0.1 - No caso de você estiver usando o Sistema Operacional da Microsoft, o Windows, siga esse tutorial para fazer pequenos ajustes no Explorador de Arquivos do Windows para facilitar o uso do versionamento.
+
+0.2 - Abra o Explorador de Arquivos, no caso de estiver usando o Windows 11, no topo da janela, clique nos 3 pontinhos que estão ao lado do botão "Visualizar". No menu que abrir clique na opção "Opções" para abrir as configurações de exibição de arquivos e pastas.
+
+0.3 - Na janela que abriu, acesse a aba "Modo de Exibição", procure na lista a opção "Ocultar as extensões dos tipos de arquivo conhecidos", deixe ela desmarcada, caso esteja marcada.
+
+0.4 - Procure mais abaixo dessa lista a seção "Pastas e arquivos ocultos", nessa seção marque a opção "Mostrar arquivos, pastas e unidades ocultas".
+
+0.5 - Feito isso clique no botão "Aplicar" e depois no botão "OK".

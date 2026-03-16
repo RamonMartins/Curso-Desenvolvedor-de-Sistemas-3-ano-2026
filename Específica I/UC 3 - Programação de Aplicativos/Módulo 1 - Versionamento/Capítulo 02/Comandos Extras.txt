@@ -1,0 +1,15 @@
+Comandos Extras
+
+1:
+Caso você tenha feito clone do seu repositório em dois computadores, então no "computador 1" você fez uma alteração no projeto e subiu essa alteração para o GitHub, isso quer dizer que no "computador 2" o repositório salvo no computador está desatualizado, para trazer as novas mudanças que foram enviadas a partir do "computador 1" você precisa rodar o comando abaixo:
+	==> git pull
+
+2:
+Para saber qual nome e email está configurado como autor:
+	==> git config --global user.name
+	==> git config --global user.email
+
+3:
+Para limpar as configurações acima definidas use os comandos abaixo:
+	==> git config --global --unset user.name
+	==> git config --global --unset user.email

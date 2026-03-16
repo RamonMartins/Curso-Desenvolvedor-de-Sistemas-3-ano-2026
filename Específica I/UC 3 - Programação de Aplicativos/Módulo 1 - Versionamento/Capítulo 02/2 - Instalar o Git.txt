@@ -1,0 +1,12 @@
+2 - Instalar o Git
+
+2.1 - Para verificar se o Git está instalado no seu computador, abra o CMD(Terminal do Windows) e digite o comando abaixo:
+	==> git --version
+
+2.2 - Caso tenha aparecido algo como "git version 2.52.0", o Git está instalado e você pode pular o passo 3.3 e 3.4, caso apareça uma mensagem que o comando não é reconhecido, o Git não está instalado, sendo assim você deve abrir o navegador e acessar o link abaixo:
+	==> https://git-scm.com/install/
+
+2.3 - Na página que abrir clique na aba que se refere ao Sistema Operacional do seu computador e quando abrir os detalhes dessa aba já clica no primeiro texto que possui um link escrito "Click here to download". Após terminar de baixar o instalador basta executar ele para instalar e seguir clicando em Próximo(Next) até concluir a instalação.
+
+2.4 - Após instalar abra novamente o CMD do Windows e digite o comando abaixo para verificar novamente se o Git está instalado:
+	==> git --version

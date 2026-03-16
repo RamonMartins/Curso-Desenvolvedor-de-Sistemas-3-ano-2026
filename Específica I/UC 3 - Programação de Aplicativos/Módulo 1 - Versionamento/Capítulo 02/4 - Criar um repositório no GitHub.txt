@@ -1,0 +1,12 @@
+4 - Criar um repositório no GitHub
+
+4.1 - Faça login no site do GitHub:
+	==> https://github.com/
+
+4.2 - Clique no ícone do seu usuário no canto superior direito da tela, no menu que abrir clique na terceira opção chamada "Repositories"
+
+4.3 - Na página que abrir clique no botão de cor verde no canto superior direito da tela onde tem escrito "New", vai abrir a tela de criar um Repositório(Projetos são chamados de Repositórios no GitHub).
+
+4.4 - No campo "Repository name" coloque o nome do seu projeto, caso queira colocar uma descrição de forma opcional coloque no campo "Description". No campo "Choose visibility" você pode definir se este repositório pode ser visto por qualquer pessoa que acessar seu perfil do GitHub ou se apenas você pode acessá-lo. Depois marque a opção "Add README" para que o arquivo "README.md" seja adicionado ao seu repositório, esse arquivo é utilizado para você escrever toda e qualquer informação de apresentação e de uso do seu projeto, não é obrigatório mas é extremamente indicado adicioná-lo. Por fim clique em "Create repository" para concluir a criação.
+
+4.5 - Após criar você será direcionado para a página inicial do seu repositório na aba "Code", agora acesse a aba "Settings" e na seção "Default branch" altere o nome da branch de "master" para "main", salve a alteração. Essa alteração é recomendada fazer em todo projeto para padronizar a nomenclatura definida para a branch principal do seu projeto, pois o Git usa um termo e o GitHub usa outro termo. Feito isto está pronto seu novo repositório.

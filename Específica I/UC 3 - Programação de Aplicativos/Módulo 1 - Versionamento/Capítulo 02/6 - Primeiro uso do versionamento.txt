@@ -1,0 +1,62 @@
+6 - Primeiro uso do versionamento
+
+6.1 - Precisamos abrir o terminal do Git novamente, porém, dentro da pasta do repositório que foi criada ao usar o comando "git clone". Então, entre dentro da pasta criada, em um espaço vazio clique com o botão direito do mouse, selecione a opção "Mostrar mais opções" e depois selecione a opção "Open Git Bash Here".
+
+6.2 - Caso queira adicionar um novo arquivo ao seu projeto você deve acessar a pasta criada e dentro dela criar o arquivo desejado. Caso queira modificar um arquivo já existente, faça o mesmo, acesse o arquivo dentro da pasta e com o programa adequado para este arquivo altere-o como desejar.
+
+6.3 - Após toda e qualquer adição ou modificação você deve usar o comando abaixo para rastrear a alteração que houve no seu projeto, informando o nome do arquivo que foi adicionado/modificado em seguida:
+	==> git add "ola.txt"
+
+6.4 - Após isso rode, o comando status apenas para confirmar que o comando anterior rastreou corretamente o arquivo que você adicionou/alterou:
+	==> git status
+
+6.5 - Agora adicione 2 arquivos aleatórios dentro da pasta do projeto, em seguida rode o "git status" novamente sem rodar o comando "git add". O Git informará que existe 1 arquivo para ser committed e 2 arquivos não rastreados. Isso foi apenas para você identificar quando há arquivos não rastreados:
+	==> git status
+
+6.6 - Para rastrear mais de um arquivo você precisa rodar o comando abaixo, colocando apenas um ponto, assim você pode adicionar dois ou mais arquivos de uma vez:
+	==> git add .
+
+6.7 - Agora rode novamente o status para saber se foi adicionado com sucesso os 2 arquivos posteriores:
+	==> git status
+
+[OPCIONAL 1] - Caso queira remover o rastreio de um ou mais arquivos, use os comandos abaixo:
+	Para remover o rastreio de apenas um arquivo use:
+	==> git rm --cached "ola.txt"
+
+	Para remover o rastreio de todos os arquivos use:
+	==> git rm -r --cached .
+
+6.8 - Até o momento fizemos apenas o rastreio dos arquivos adicionados/modificados, mas ainda não criamos o conjunto de dados de alterações do projeto, que no caso seria o commit, para isso precisamos fazer o commit dessa alteração, segue o comando abaixo, tendo em vista que o texto entre aspas é o título descrevendo o que foi feito nesse pacote de alterações:
+	==> git commit -m "Adicionado instruções de uso"
+
+[OPCIONAL 2] - Caso tenha aparecido um erro no retorno do comando anterior informando o seguinte texto "Author identity unknown", significa que o Autor não foi configurado, volte ao tutorial "3 - Configurar o Git". Após corrigir rode novamente o comando de criar o commit.
+
+[OPCIONAL 3] - Caso você tenha feito algo de errado, use o comando abaixo para desfazer o commit que você fez. Dessa forma vai voltar ao ponto dos arquivos rastreados:
+	==> git reset
+
+	Caso você queira desfazer tudo o que fez, incluindo as modificações realizadas nos arquivos retornando ao estado do último commit use:
+	==> git reset --hard
+
+6.9 - Para enviar esse commit(conjunto de alterações do projeto) para o seu repositório na nuvem, rode o comando abaixo:
+	==> git push
+
+[OPCIONAL 4] - Caso tenha aparecido uma pequena janela siga esses passos para fazer login no GitHub:
+	Op-4.1 - Clique em "Sign in with your browser" para fazer o login utilizando o navegador pois este já esta com sua conta logada.
+	Op-4.2 - No navegador abriu uma nova aba, nela lhe é solicitado a autorização do Git na sua conta do Github, clique no botão "Authorize git-ecosystem" e em seguida confirme sua senha da conta do Github.
+	Op-4.3 - Após aparecer a mensagem na tela o texto "Authentication Succeeded", está informando que foi autenticado com sucesso, feito isso volte ao terminal do Git e nele estará um log informando que foi feito o push com sucesso.
+
+6.10 - Após isso, acesse a página do seu repositório pelo site do Github, atualize a página do repositório e você verá na tela que os arquivos que estão na sua pasta do computador agora estão dentro do seu repositório no GitHub. Com isso você criou a primeira versão e seu primeiro commit do seu projeto.
+
+6.11 - Tendo já tudo configurado e dado o primeiro commit, agora os próximos passos se tratam apenas de adicionar novos arquivos ao seu projeto e/ou editar arquivos já existentes, após ter feito uma dessas duas ações rode o comando abaixo para rastrear a alteração:
+	==> git add .
+
+6.12 - Em seguida rode o comando para ver o status se o Git identificou que você modificou ou criou um novo arquivo:
+	==> git status
+
+6.13 - Após isso rode o comando para criar o commit dessa alteração/criação, lembrando que o texto entre aspas é uma breve descrição da alteração que você fez:
+	==> git commit -m "add uma nova linha no código"
+
+6.14 - Por fim, rode o comando para enviar essa alteração para o seu repositório no Github:
+	==> git push
+
+6.15 - Processo concluído, os três comandos "add", "commit" e "push" precisam ser rodados sempre que você querer enviar uma nova alteração para seu projeto, toda a configuração anterior para definir o repositório foram apenas configurações iniciais do Git que serão configuradas somente uma única vez em cada projeto.

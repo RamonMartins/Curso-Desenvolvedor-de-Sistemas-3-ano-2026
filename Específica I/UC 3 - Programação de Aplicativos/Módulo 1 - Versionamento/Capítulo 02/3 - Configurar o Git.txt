@@ -1,0 +1,11 @@
+3 - Configurar o Git
+
+3.1 - Inicialmente é necessário você definir no Git o nome e o email do Autor que estará fazendo as alterações no projeto. Para isso abra o CMD(Terminal do Windows), e digite o comando abaixo, trocando o valor entre aspas pelo seu nome:
+	==> git config --global user.name "Ramon Ferreira"
+
+3.2 - Agora você precisa informar o email do Autor, segue o comando abaixo, troque o valor entre aspas pelo seu email do GitHub:
+	==> git config --global user.email "ramon@gmail.com"
+
+3.3 - Para finalizar a configuração do Git ainda é preciso realizar o login do GitHub no Git instalado no seu computador, porém não há um comando direto que faça isso. Uma janela de login vai aparecer quando você subir a primeira alteração do projeto para o repositório do GitHub no tutorial que será ensinado mais a frente. Esse login será feito apenas uma vez.
+
+3.4 - Por fim, pode fechar a janela do CMD pois não vamos mais utilizar esse terminal.

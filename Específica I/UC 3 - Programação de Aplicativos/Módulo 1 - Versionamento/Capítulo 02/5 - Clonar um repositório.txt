@@ -1,0 +1,13 @@
+5 - Clonando o repositório
+
+5.1 - Para poder criar/modificar/excluir arquivos do seu projeto no seu computador você precisa primeiro clonar este repositório para o seu computador. Clonar é diferente de baixar os arquivos do projeto por que a ação de clonar trás também todos os arquivos que contém o versionamento desse repositório.
+
+5.2 - Acesse a página do seu repositório criado no GitHub, nele acesse a aba "Code", copie a URL da página. Deve ficar algo como isso:
+	==> https://github.com/RamonMartins/teste
+
+5.3 - Abra o Explorador de arquivos do seu computador, acesse uma pasta no seu computador onde você guarda seus trabalhos, na raiz dessa pasta você vai clicar com o botão direito do mouse em um espaço em branco, selecione a opção "Mostrar mais opções" e depois selecione a opção "Open Git Bash Here" para abrir o terminal do Git.
+
+5.4 - No terminal, digite o comando "git clone" seguido da URL que você copiou para poder clonar o repositório que está no seu GitHub para o seu computador, com isso vai criar uma pasta com o nome do repositório e dentro dela os arquivos que possuem neste projeto, conforme exemplo abaixo:
+	==> git clone https://github.com/RamonMartins/teste
+
+5.5 - Após executar esse comando feche a janela desse terminal do Git, pois não iremos utilizar o terminal nesse diretório do computador.

@@ -1,0 +1,10 @@
+10 - Usando o gitignore:
+
+10.1 - Caso você tenha colocado dentro da pasta do seu projeto algum arquivo que lhe ajuda no projeto mas você não quer que ele seja enviado para o seu repositório remoto lá no GitHub por algum motivo, você precisa criar o arquivo "Git Ignore", para isso rode o comando:
+	==> touch .gitignore
+
+10.2 - Agora se você for até a pasta do projeto localmente, lá terá um novo arquivo chamado ".gitignore". Abra esse arquivo usando o bloco de notas para poder editar ele. Caso você tenha criado um arquivo pdf de nome "senhas.pdf", você precisa escrever exatamente o nome dele juntamente com a extensão pdf no bloco de notas do arquivo gitignore:
+	No .gitignore ==> senhas.pdf
+
+10.3 - E caso você queira que uma pasta inteira não seja enviada para o GitHub, basta colocar o nome da pasta seguido de uma /, desta maneira usando a pasta "senhas" ficaria assim:
+	No .gitignore ==> senhas/

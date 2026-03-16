@@ -1,0 +1,4 @@
+1 - Criar conta no Github
+
+1.1 - Para criar e salvar seus projetos na nuvem você precisa de uma conta do GitHub, sendo assim acesse o link abaixo e siga os passos para criar sua conta:
+	==> https://github.com/signup
