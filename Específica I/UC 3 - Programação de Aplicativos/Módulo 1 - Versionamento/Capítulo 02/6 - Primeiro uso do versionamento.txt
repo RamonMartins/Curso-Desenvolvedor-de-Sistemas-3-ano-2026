@@ -32,10 +32,10 @@
 [OPCIONAL 2] - Caso tenha aparecido um erro no retorno do comando anterior informando o seguinte texto "Author identity unknown", significa que o Autor não foi configurado, volte ao tutorial "3 - Configurar o Git". Após corrigir rode novamente o comando de criar o commit.
 
 [OPCIONAL 3] - Caso você tenha feito algo de errado, use o comando abaixo para desfazer o commit que você fez. Dessa forma vai voltar ao ponto dos arquivos rastreados:
-	==> git reset
+	==> git reset --soft HEAD~1
 
 	Caso você queira desfazer tudo o que fez, incluindo as modificações realizadas nos arquivos retornando ao estado do último commit use:
-	==> git reset --hard
+	==> git reset --hard HEAD~1
 
 6.9 - Para enviar esse commit(conjunto de alterações do projeto) para o seu repositório na nuvem, rode o comando abaixo:
 	==> git push
